@@ -17,6 +17,7 @@ public class CreateDriver {
 			   {
 		        System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
 	            driver = new ChromeDriver();
+	            System.out.println("Hello");
 	            
 	           
 			   }
